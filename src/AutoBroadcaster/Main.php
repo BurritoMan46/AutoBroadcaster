@@ -11,7 +11,7 @@ use pocketmine\utils\Config;
 class Main extends PluginBase {
 
     public function onEnable() : void {
-        $this->getLogger()->info("AutoBroadcaster Enabled! Plugin by Potatoe. Download at https://github.com/PotatoeTrainYT/AutoBroadcaster/");
+        $this->getLogger()->info("AutoBroadcaster Enabled! Plugin by DakerOmar.");
         @mkdir($this->getDataFolder());
         $this->saveResource("settings.yml");
         $this->settings = new Config($this->getDataFolder() . "settings.yml", Config::YAML);
