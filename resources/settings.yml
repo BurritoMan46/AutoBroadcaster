@@ -2,14 +2,11 @@
 # AutoBroadcaster (AB) Settings
 
 # Seconds between each message
-seconds: 300
+seconds: 200
 
 # Messages to broadcast
 messages:
- - "AutoBroadcaster"
- - "Made By Potatoe"
-
-# Variables
-# {MAXPLAYERS} ~ Gets servers max players limit
-# {ONLINE} ~ Gets servers online players count
+ - "§e[§aAversion§cAnnouncer§e]§bVote For Our Server To Get Awesome §cRewards!"
+ - "§e[§aAversion§cAnnouncer§e]§bHave Fun Playing §aAversion!"
+ - "§e[§aAversion§cAnnouncer§e]§bFollow §c@AversionPE §bOn Twitter To Get Updates And Giveaways!"
 ...
